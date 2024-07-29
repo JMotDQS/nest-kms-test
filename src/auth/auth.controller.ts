@@ -7,6 +7,8 @@ export class AuthController {
 
 	@Post('login')
 	login() {
-		return 'Logging In'
+		//return 'Logging In'
+		//return {msg: 'Wibbly Wobbly'}
+		return this.authService.login()
 	}
 }
