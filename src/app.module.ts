@@ -8,11 +8,13 @@ import { Employees } from './auth//auth.entity';
 imports: [
 	TypeOrmModule.forRoot({
 		type: 'mssql',
-		host: 'localhost',
-		//port: 10112,
+		host: '10.1.10.45',
+		//host: 'localhost\\SQLEXPRESS',
 		port: 1433,
-		username: 'DQSLAP0326\\DQSadmin',
-		password: '',
+		username: 'DQSDirectLocal',
+		//username: 'MyAdmin',
+		password: 'Detroit123',
+		//password: 'rootPassword',
 		database: 'kms-react',
 		options: {
 			encrypt: false,
