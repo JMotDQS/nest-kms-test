@@ -9,8 +9,9 @@ imports: [
 	TypeOrmModule.forRoot({
 		type: 'mssql',
 		host: 'localhost',
+		//port: 10112,
 		port: 1433,
-		username: '',
+		username: 'DQSLAP0326\\DQSadmin',
 		password: '',
 		database: 'kms-react',
 		options: {
